@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: white;
+}
+
+.container {
+    display: flex;
+    margin-top: 8rem;
+    justify-content: center;
+
+}
+
+.logo {
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+
+.button {
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+
+.container p {
+    color: white;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.container h1 {
+    color: white;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    margin-top: 1rem;
+    padding-left: 1rem;
+   
+}
+
+.sedan {
+    height: 420px;
+    width: 300px;
+    background: hsl(31, 77%, 52%);
+   border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.SUV {
+    height: 420px;
+    width: 300px;
+    background: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    height: 420px;
+    width: 300px;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 00.5rem;
+    background: hsl(179, 100%, 13%);
+}
+
+.one {
+    color: hsl(31, 77%, 52%);
+}
+
+.two {
+    color: hsl(184, 100%, 22%);
+}
+
+.three {
+    color: hsl(179, 100%, 13%);
+}
+.button:hover{
+    cursor: pointer;
+    color: white;
+    border-color: hsla(0, 0%, 100%, 0.75);
+}
+.two:hover{
+    background-color: hsl(184, 100%, 22%);
+
+}
+.one:hover {
+     
+    
+    background-color: hsl(31, 77%, 52%);
+}
+.three:hover{
+     background-color: hsl(179, 100%, 13%);
+}
